@@ -15,7 +15,7 @@ RUN R -e "install.packages(c('plumber', 'randomForest'), repos='https://cloud.r-
 WORKDIR /app
 
 # Copy ONLY the QoeAPI folder from the repo into /app
-COPY QoeAPI /app
+COPY  QoeApi /app
 
 # Expose Plumber port
 EXPOSE 8000
